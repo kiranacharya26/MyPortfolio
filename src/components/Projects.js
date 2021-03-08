@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Gallery from '../images/gallery.gif'
 import Git from '../images/github.jpg'
 import Crud from '../images/CRUD.jpeg'
-import dp from '../images/DP.jpeg'
+
 
 const Projects = () => {
     const [prjs, setPrjs] = useState([
