@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route exact path='/hero' component={Hero}/>  
+          <Route exact path='/' component={Hero}/>  
           <Route exact path='/about' component={About} /> 
           <Route exact path='/projects' component={Projects} /> 
           <Route exact path='/contact' component={Contact} /> 
@@ -23,7 +23,4 @@ function App() {
 }
 
 export default App;
-{/* <Route exact path='/home' component={Hero}/>Home
-        <Route exact path='/about' component={About} /> About
-        <Route exact path='/projects'/> Projects
-        <Route exact path='/contact'/>Contact */}
+
