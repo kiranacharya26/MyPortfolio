@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Gallery from '../images/gallery.gif'
 import Git from '../images/github.jpg'
 import Crud from '../images/CRUD.jpeg'
+import Meal from '../images/meal.jpg'
 
 
 const Projects = () => {
@@ -26,6 +27,13 @@ const Projects = () => {
             stack:'ReactJs, Json Server, CSS',
             LinkURL: 'https://mytrackerapp.herokuapp.com',
             imageUrl:Crud
+        },
+        {
+            id:4,
+            name:'Meal Finder',
+            stack:'vanilla Js, meal API, CSS',
+            LinkURL: 'https://kiranacharya26.github.io/JSWidgets/MealAPI/',
+            imageUrl:Meal
         },
         
     ])
