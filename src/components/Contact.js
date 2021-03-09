@@ -24,15 +24,15 @@ const Contact = () => {
                         
                         <li><a href="https://github.com/kiranacharya26?tab=repositories"rel="noreferrer" target="_blank"><AiFillGithub /></a></li>
                         <li> <a href="https://www.instagram.com/achkiran26/" rel="noreferrer" target="_blank"><AiOutlineInstagram /></a></li>
-                        <li><a href="#"rel="noreferrer" target="_blank"><GrMail /></a></li>
+                        <li><a href="https://mail.google.com/mail/"rel="noreferrer" target="_blank"><GrMail /></a></li>
                     </ul>
                 </div>
             </div>
             <form >
-                <div class="form-control">   
+                <div className="form-control">   
                     <input type="email" id="email" placeholder="Enter email"/>
                 </div>
-                <div class="form-control">
+                <div className="form-control">
                     <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
                 </div>
                 <button type="submit" onClick={onAlert}>Submit</button>
