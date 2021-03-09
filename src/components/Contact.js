@@ -3,6 +3,7 @@ import {BiMessageDots} from 'react-icons/bi'
 import {GrLinkedin} from 'react-icons/gr'
 import {AiFillGithub} from 'react-icons/ai'
 import {GrMail} from 'react-icons/gr'
+import {AiOutlineInstagram} from 'react-icons/ai'
 
 const Contact = () => {
     const onAlert = () =>{
@@ -18,8 +19,11 @@ const Contact = () => {
                 </p>
                 <div className="social-icons">
                     <ul>
+
                         <li> <a href="https://www.linkedin.com/in/kiran-acharya/" rel="noreferrer" target="_blank"><GrLinkedin /></a></li>
+                        
                         <li><a href="https://github.com/kiranacharya26?tab=repositories"rel="noreferrer" target="_blank"><AiFillGithub /></a></li>
+                        <li> <a href="https://www.instagram.com/achkiran26/" rel="noreferrer" target="_blank"><AiOutlineInstagram /></a></li>
                         <li><a href="#"rel="noreferrer" target="_blank"><GrMail /></a></li>
                     </ul>
                 </div>

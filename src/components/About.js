@@ -8,6 +8,7 @@ import {AiOutlineHtml5} from 'react-icons/ai'
 import {SiPostman} from 'react-icons/si'
 import {SiJsonwebtokens} from 'react-icons/si'
 import {BiMessageAltDots} from 'react-icons/bi'
+import {DiMongodb} from 'react-icons/di'
 
 const About = () => {
     return (
@@ -30,10 +31,11 @@ const About = () => {
                             <IoLogoJavascript style={style}/>
                             <FaReact style={style}/>
                             <SiCsswizardry style={style}/>
-                            <FaNodeJs style={style}/>
                             <AiOutlineHtml5 style={style}/>
+                            <FaNodeJs style={style}/>
                             <SiPostman style={style}/>
                             <SiJsonwebtokens style={style}/>
+                            <DiMongodb style={style}/>
 
                         </div>
                     </div>
